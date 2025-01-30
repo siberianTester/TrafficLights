@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FC6E0CB2D47F7E300AF4B80 /* TrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC6E0DB2D47F7E500AF4B80 /* TrafficLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FC6E0E52D47F7E500AF4B80 /* TrafficLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC6E0CB2D47F7E300AF4B80 /* TrafficLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC6E0DB2D47F7E500AF4B80 /* TrafficLightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC6E0E52D47F7E500AF4B80 /* TrafficLightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1FC6E0CD2D47F7E300AF4B80 /* TrafficLight */ = {
+		1FC6E0CD2D47F7E300AF4B80 /* TrafficLights */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TrafficLight;
+			path = TrafficLights;
 			sourceTree = "<group>";
 		};
 		1FC6E0DE2D47F7E500AF4B80 /* TrafficLightTests */ = {
@@ -75,7 +75,7 @@
 		1FC6E0C22D47F7E300AF4B80 = {
 			isa = PBXGroup;
 			children = (
-				1FC6E0CD2D47F7E300AF4B80 /* TrafficLight */,
+				1FC6E0CD2D47F7E300AF4B80 /* TrafficLights */,
 				1FC6E0DE2D47F7E500AF4B80 /* TrafficLightTests */,
 				1FC6E0E82D47F7E500AF4B80 /* TrafficLightUITests */,
 				1FC6E0CC2D47F7E300AF4B80 /* Products */,
@@ -85,9 +85,9 @@
 		1FC6E0CC2D47F7E300AF4B80 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FC6E0CB2D47F7E300AF4B80 /* TrafficLight.app */,
-				1FC6E0DB2D47F7E500AF4B80 /* TrafficLightTests.xctest */,
-				1FC6E0E52D47F7E500AF4B80 /* TrafficLightUITests.xctest */,
+				1FC6E0CB2D47F7E300AF4B80 /* TrafficLights.app */,
+				1FC6E0DB2D47F7E500AF4B80 /* TrafficLightsTests.xctest */,
+				1FC6E0E52D47F7E500AF4B80 /* TrafficLightsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FC6E0CA2D47F7E300AF4B80 /* TrafficLight */ = {
+		1FC6E0CA2D47F7E300AF4B80 /* TrafficLights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC6E0EF2D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLight" */;
+			buildConfigurationList = 1FC6E0EF2D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLights" */;
 			buildPhases = (
 				1FC6E0C72D47F7E300AF4B80 /* Sources */,
 				1FC6E0C82D47F7E300AF4B80 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1FC6E0CD2D47F7E300AF4B80 /* TrafficLight */,
+				1FC6E0CD2D47F7E300AF4B80 /* TrafficLights */,
 			);
-			name = TrafficLight;
+			name = TrafficLights;
 			packageProductDependencies = (
 			);
 			productName = TrafficLight;
-			productReference = 1FC6E0CB2D47F7E300AF4B80 /* TrafficLight.app */;
+			productReference = 1FC6E0CB2D47F7E300AF4B80 /* TrafficLights.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1FC6E0DA2D47F7E500AF4B80 /* TrafficLightTests */ = {
+		1FC6E0DA2D47F7E500AF4B80 /* TrafficLightsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC6E0F22D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLightTests" */;
+			buildConfigurationList = 1FC6E0F22D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLightsTests" */;
 			buildPhases = (
 				1FC6E0D72D47F7E500AF4B80 /* Sources */,
 				1FC6E0D82D47F7E500AF4B80 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				1FC6E0DE2D47F7E500AF4B80 /* TrafficLightTests */,
 			);
-			name = TrafficLightTests;
+			name = TrafficLightsTests;
 			packageProductDependencies = (
 			);
 			productName = TrafficLightTests;
-			productReference = 1FC6E0DB2D47F7E500AF4B80 /* TrafficLightTests.xctest */;
+			productReference = 1FC6E0DB2D47F7E500AF4B80 /* TrafficLightsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1FC6E0E42D47F7E500AF4B80 /* TrafficLightUITests */ = {
+		1FC6E0E42D47F7E500AF4B80 /* TrafficLightsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FC6E0F52D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLightUITests" */;
+			buildConfigurationList = 1FC6E0F52D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLightsUITests" */;
 			buildPhases = (
 				1FC6E0E12D47F7E500AF4B80 /* Sources */,
 				1FC6E0E22D47F7E500AF4B80 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				1FC6E0E82D47F7E500AF4B80 /* TrafficLightUITests */,
 			);
-			name = TrafficLightUITests;
+			name = TrafficLightsUITests;
 			packageProductDependencies = (
 			);
 			productName = TrafficLightUITests;
-			productReference = 1FC6E0E52D47F7E500AF4B80 /* TrafficLightUITests.xctest */;
+			productReference = 1FC6E0E52D47F7E500AF4B80 /* TrafficLightsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1FC6E0C62D47F7E300AF4B80 /* Build configuration list for PBXProject "TrafficLight" */;
+			buildConfigurationList = 1FC6E0C62D47F7E300AF4B80 /* Build configuration list for PBXProject "TrafficLights" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FC6E0CA2D47F7E300AF4B80 /* TrafficLight */,
-				1FC6E0DA2D47F7E500AF4B80 /* TrafficLightTests */,
-				1FC6E0E42D47F7E500AF4B80 /* TrafficLightUITests */,
+				1FC6E0CA2D47F7E300AF4B80 /* TrafficLights */,
+				1FC6E0DA2D47F7E500AF4B80 /* TrafficLightsTests */,
+				1FC6E0E42D47F7E500AF4B80 /* TrafficLightsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		1FC6E0DD2D47F7E500AF4B80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC6E0CA2D47F7E300AF4B80 /* TrafficLight */;
+			target = 1FC6E0CA2D47F7E300AF4B80 /* TrafficLights */;
 			targetProxy = 1FC6E0DC2D47F7E500AF4B80 /* PBXContainerItemProxy */;
 		};
 		1FC6E0E72D47F7E500AF4B80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1FC6E0CA2D47F7E300AF4B80 /* TrafficLight */;
+			target = 1FC6E0CA2D47F7E300AF4B80 /* TrafficLights */;
 			targetProxy = 1FC6E0E62D47F7E500AF4B80 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,8 +401,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,9 +411,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = malygin.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,8 +434,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,9 +444,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = malygin.TrafficLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -458,7 +468,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficLight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficLight";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficLights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficLights";
 			};
 			name = Debug;
 		};
@@ -476,7 +486,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficLight.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficLight";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrafficLights.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrafficLights";
 			};
 			name = Release;
 		};
@@ -515,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FC6E0C62D47F7E300AF4B80 /* Build configuration list for PBXProject "TrafficLight" */ = {
+		1FC6E0C62D47F7E300AF4B80 /* Build configuration list for PBXProject "TrafficLights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC6E0ED2D47F7E500AF4B80 /* Debug */,
@@ -524,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC6E0EF2D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLight" */ = {
+		1FC6E0EF2D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC6E0F02D47F7E500AF4B80 /* Debug */,
@@ -533,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC6E0F22D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLightTests" */ = {
+		1FC6E0F22D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLightsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC6E0F32D47F7E500AF4B80 /* Debug */,
@@ -542,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FC6E0F52D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLightUITests" */ = {
+		1FC6E0F52D47F7E500AF4B80 /* Build configuration list for PBXNativeTarget "TrafficLightsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FC6E0F62D47F7E500AF4B80 /* Debug */,
